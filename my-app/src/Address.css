@@ -1,0 +1,64 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  /* padding-top: 90px; */
+}
+.address h1 {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.address__image {
+  /* width: 100px; */
+  object-fit: contain;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.address__container {
+  align-items: center;
+  width: 300px;
+  border: 1px solid lightgrey;
+  padding: 20px;
+}
+.address h5 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.address input {
+  width: 98%;
+  height: 30px;
+}
+
+.address__save {
+  display: block;
+  background: 1px #f0c14b;
+  border: 1px solid;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  border-radius: 2px;
+  height: 30px;
+  width: 100%;
+}
+.address p {
+  font-size: 12px;
+}
+.address__registerButton {
+  border: 1px solid rgb(151, 151, 151);
+
+  margin-top: 10px;
+  border-radius: 2px;
+  height: 30px;
+  width: 100%;
+}
+.address_option {
+  align-items: left;
+}
+.address_option h3 {
+  display: inline;
+}

@@ -1,0 +1,29 @@
+.pageProduct {
+  padding-top: 80px;
+  background-color: white;
+  height: 78vh;
+}
+
+.pageProduct img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 35px;
+}
+
+.pageProduct__info {
+  font-weight: 800;
+}
+.pageProduct__price {
+  margin-top: 20px;
+}
+
+.pageProduct__rating {
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+.pageProduct button {
+  width: 90%;
+  height: 50px;
+  font-weight: 800;
+}
