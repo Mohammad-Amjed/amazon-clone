@@ -33,6 +33,7 @@ function Payment() {
           setCity(doc.data().city);
         });
       });
+      alert(basket);
   const addToCart = () => {
     {
       db.collection("users")

@@ -14,6 +14,7 @@ function ProductPage4() {
           image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
         />
       </div>
+      
     </div>
   );
 }

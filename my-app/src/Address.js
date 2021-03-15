@@ -16,7 +16,7 @@ function Address() {
 
   const history = useHistory();
   const save = () => {
-    user &&
+   
       db
         .collection("users")
         .doc(user.uid)
@@ -33,6 +33,7 @@ function Address() {
         .then(history.push("./payment"));
   };
   console.log("ant thing");
+
   user &&
     db
       .collection("users")
